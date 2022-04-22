@@ -30,5 +30,5 @@ int print_char(va_list l, flags_t *f)
 {
     (void)f;
     _putchar(va_arg(l, int));
-
-    /*last 2 line */
+    return (1);
+}

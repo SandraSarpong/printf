@@ -80,5 +80,6 @@ int count_digit(int i)
         u /= 10;
         d++;
     }
+  return (d);
+}
 
-    /* last 2 line */

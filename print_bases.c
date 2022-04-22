@@ -80,5 +80,5 @@ int print_octal(va_list l, flags_t *f)
     if (f->hash == 1 && str[0] != '0')
         count += _putchar('0');
     count += _puts(str);
-
-    /* last 2 line */
+    return (count);
+}
