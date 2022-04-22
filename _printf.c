@@ -44,5 +44,5 @@ int _printf(const char *format, ...)
     }
     _putchar(-1);
     va_end(arguments);
- 
-/* last 2 lines */
+    return (count);
+}

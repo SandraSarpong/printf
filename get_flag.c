@@ -28,4 +28,5 @@ int get_flag(char s, flags_t *f)
         break;
     }
 
-  /* last 2 lines */
+    return (i);
+}
